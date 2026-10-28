@@ -1,0 +1,165 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'control'
+Slack : 10.909
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'camera'
+Slack : 34.046
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'camera'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'control'
+Slack : 17.762
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'camera'
+Slack : 38.865
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'camera'
+Slack : 0.687
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'control'
+Slack : 0.990
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control'
+Slack : 9.371
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'camera'
+Slack : 20.214
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'control'
+Slack : 10.875
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'camera'
+Slack : 34.180
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'camera'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'control'
+Slack : 17.855
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'camera'
+Slack : 38.986
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'camera'
+Slack : 0.606
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'control'
+Slack : 0.941
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control'
+Slack : 9.286
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'camera'
+Slack : 20.141
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'control'
+Slack : 14.683
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'camera'
+Slack : 37.212
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'camera'
+Slack : 0.165
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'control'
+Slack : 18.527
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'camera'
+Slack : 39.828
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'camera'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'control'
+Slack : 0.572
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control'
+Slack : 9.418
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'camera'
+Slack : 20.250
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'control'
+Slack : 15.093
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'camera'
+Slack : 37.649
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'camera'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'control'
+Slack : 18.677
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'camera'
+Slack : 40.015
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'camera'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'control'
+Slack : 0.520
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control'
+Slack : 9.416
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'camera'
+Slack : 20.249
+TNS   : 0.000
+
+------------------------------------------------------------

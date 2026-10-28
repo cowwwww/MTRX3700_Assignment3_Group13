@@ -1,0 +1,9 @@
+{
+  "source_directory": "E:\\USYD\\USYD_2-2\\MTRX3700\\ASSIGNMENT3\\WORK\\MTRX3700_Robot\\build\\round2_clean_validation",
+  "build_directory_absent_before_run": true,
+  "zig_global_and_local_caches_inside_new_build": true,
+  "source_snapshot_verified_after_run": true,
+  "seconds": 200.594,
+  "verilator_5050": false,
+  "only_later_source_change": "tools/run_tests.py deletes stale test_results.json before attempting a run"
+}

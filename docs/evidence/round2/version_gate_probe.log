@@ -1,0 +1,2 @@
+PASS exact-version rejection returns nonzero and removes stale prior PASS JSON
+FAIL Required Verilator 5.050, got 'rev vUNKNOWN-built20260516-4e853d8'. Local fallback needs explicit --allow-version-mismatch.

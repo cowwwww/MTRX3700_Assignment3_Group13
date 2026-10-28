@@ -1,0 +1,45 @@
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY video_framebuffer
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 2
+set_global_assignment -name SDC_FILE video_framebuffer.sdc
+# Data pins are virtual and clock pins are unassigned. Add real pins before board use.
+set_instance_assignment -name VIRTUAL_PIN ON -to cam_reset
+set_instance_assignment -name VIRTUAL_PIN ON -to display_reset
+set_instance_assignment -name VIRTUAL_PIN ON -to pixel_valid
+set_instance_assignment -name VIRTUAL_PIN ON -to sof
+set_instance_assignment -name VIRTUAL_PIN ON -to eof
+set_instance_assignment -name VIRTUAL_PIN ON -to frame_abort
+set_instance_assignment -name VIRTUAL_PIN ON -to swap_boundary
+set_instance_assignment -name VIRTUAL_PIN ON -to read_enable
+set_instance_assignment -name VIRTUAL_PIN ON -to read_valid
+set_instance_assignment -name VIRTUAL_PIN ON -to display_valid
+set_instance_assignment -name VIRTUAL_PIN ON -to frame_pending
+set_instance_assignment -name VIRTUAL_PIN ON -to gray[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to x[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to y[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to read_address[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to read_gray[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to dropped_frames[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to displayed_frames[*]
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/camera/camera_byte_capture.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/common/unsigned_divider.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/motor/motion_control.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/motor/uart_tx.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/navigation/distance_guard.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/navigation/junction_memory.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/navigation/navigation_fsm.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/reuse/cdc_mailbox.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/reuse/reset_sync.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/safety/safety_stop.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/top/camera_debug_display.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/top/robot_camera_system.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/top/robot_core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/top/robot_system.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/curve_fit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/debug_overlay.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/image_translation_sad.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/line_detector.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/vga_scanout.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/video_framebuffer.sv

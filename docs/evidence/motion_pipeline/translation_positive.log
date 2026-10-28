@@ -1,0 +1,2 @@
+PASS image translation: all 81 shifts, independent SAD/runner-up oracle, quality gates, frame IDs, ordered loads, busy isolation and reset
+IMAGE TRANSLATION TESTS PASSED

@@ -1,0 +1,322 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Copyright (C) 2018  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Mon Oct 19 17:26:46 2026
+Info: Command: quartus_map robot_system --read_settings_files=on --write_settings_files=off
+Info (20032): Parallel compilation is enabled and will use up to 2 processors
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/camera/camera_byte_capture.sv
+    Info (12023): Found entity 1: camera_byte_capture File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/camera/camera_byte_capture.sv Line: 7
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/common/unsigned_divider.sv
+    Info (12023): Found entity 1: unsigned_divider File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/common/unsigned_divider.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/motor/motion_control.sv
+    Info (12023): Found entity 1: motion_control File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/motor/motion_control.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/motor/uart_tx.sv
+    Info (12023): Found entity 1: uart_tx File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/motor/uart_tx.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/navigation/distance_guard.sv
+    Info (12023): Found entity 1: distance_guard File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/navigation/distance_guard.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/navigation/junction_memory.sv
+    Info (12023): Found entity 1: junction_memory File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/navigation/junction_memory.sv Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/navigation/navigation_fsm.sv
+    Info (12023): Found entity 1: navigation_fsm File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/navigation/navigation_fsm.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/reuse/cdc_mailbox.sv
+    Info (12023): Found entity 1: cdc_mailbox File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/reuse/cdc_mailbox.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/reuse/reset_sync.sv
+    Info (12023): Found entity 1: reset_sync File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/reuse/reset_sync.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/safety/safety_stop.sv
+    Info (12023): Found entity 1: safety_stop File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/safety/safety_stop.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/top/camera_debug_display.sv
+    Info (12023): Found entity 1: camera_debug_display File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/camera_debug_display.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/top/robot_camera_system.sv
+    Info (12023): Found entity 1: robot_camera_system File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_camera_system.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/top/robot_core.sv
+    Info (12023): Found entity 1: robot_core File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_core.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/top/robot_system.sv
+    Info (12023): Found entity 1: robot_system File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/vision/curve_fit.sv
+    Info (12023): Found entity 1: curve_fit File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/vision/curve_fit.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/vision/debug_overlay.sv
+    Info (12023): Found entity 1: debug_overlay File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/vision/debug_overlay.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/vision/image_translation_sad.sv
+    Info (12023): Found entity 1: image_translation_sad File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/vision/image_translation_sad.sv Line: 7
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/vision/line_detector.sv
+    Info (12023): Found entity 1: line_detector File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/vision/line_detector.sv Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/vision/vga_scanout.sv
+    Info (12023): Found entity 1: vga_scanout File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/vision/vga_scanout.sv Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file /usyd/usyd_2-2/mtrx3700/assignment2/work/build/major_project_20261019/mtrx3700_robot/rtl/vision/video_framebuffer.sv
+    Info (12023): Found entity 1: video_framebuffer File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/vision/video_framebuffer.sv Line: 6
+Info (12127): Elaborating entity "robot_system" for the top level hierarchy
+Info (12128): Elaborating entity "reset_sync" for hierarchy "reset_sync:camera_reset_release" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 32
+Info (12128): Elaborating entity "camera_byte_capture" for hierarchy "camera_byte_capture:capture" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 35
+Info (12128): Elaborating entity "robot_core" for hierarchy "robot_core:core" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 40
+Info (12128): Elaborating entity "line_detector" for hierarchy "robot_core:core|line_detector:detector" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_core.sv Line: 42
+Info (12128): Elaborating entity "unsigned_divider" for hierarchy "robot_core:core|line_detector:detector|unsigned_divider:divisions[0].div" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/vision/line_detector.sv Line: 44
+Info (12128): Elaborating entity "cdc_mailbox" for hierarchy "robot_core:core|cdc_mailbox:features_crossing" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_core.sv Line: 52
+Info (12128): Elaborating entity "safety_stop" for hierarchy "robot_core:core|safety_stop:safety" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_core.sv Line: 54
+Info (12128): Elaborating entity "curve_fit" for hierarchy "robot_core:core|curve_fit:fit" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_core.sv Line: 55
+Info (12128): Elaborating entity "distance_guard" for hierarchy "robot_core:core|distance_guard:range_guard" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_core.sv Line: 57
+Info (12128): Elaborating entity "navigation_fsm" for hierarchy "robot_core:core|navigation_fsm:navigation" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_core.sv Line: 62
+Info (12128): Elaborating entity "motion_control" for hierarchy "robot_core:core|motion_control:motor_mixer" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_core.sv Line: 64
+Info (12128): Elaborating entity "camera_debug_display" for hierarchy "camera_debug_display:display" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 45
+Info (12128): Elaborating entity "vga_scanout" for hierarchy "camera_debug_display:display|vga_scanout:scan" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/camera_debug_display.sv Line: 27
+Info (12128): Elaborating entity "video_framebuffer" for hierarchy "camera_debug_display:display|video_framebuffer:frames" File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/camera_debug_display.sv Line: 31
+Warning (276027): Inferred dual-clock RAM node "camera_debug_display:display|video_framebuffer:frames|memory_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
+Info (19000): Inferred 1 megafunctions from design logic
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "camera_debug_display:display|video_framebuffer:frames|memory_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 8
+        Info (286033): Parameter WIDTHAD_A set to 18
+        Info (286033): Parameter NUMWORDS_A set to 153600
+        Info (286033): Parameter WIDTH_B set to 8
+        Info (286033): Parameter WIDTHAD_B set to 18
+        Info (286033): Parameter NUMWORDS_B set to 153600
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK1
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+        Info (286033): Parameter RAM_BLOCK_TYPE set to M10K
+Info (12130): Elaborated megafunction instantiation "camera_debug_display:display|video_framebuffer:frames|altsyncram:memory_rtl_0"
+Info (12133): Instantiated megafunction "camera_debug_display:display|video_framebuffer:frames|altsyncram:memory_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "8"
+    Info (12134): Parameter "WIDTHAD_A" = "18"
+    Info (12134): Parameter "NUMWORDS_A" = "153600"
+    Info (12134): Parameter "WIDTH_B" = "8"
+    Info (12134): Parameter "WIDTHAD_B" = "18"
+    Info (12134): Parameter "NUMWORDS_B" = "153600"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK1"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info (12134): Parameter "RAM_BLOCK_TYPE" = "M10K"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_r9m1.tdf
+    Info (12023): Found entity 1: altsyncram_r9m1 File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/quartus/db/altsyncram_r9m1.tdf Line: 31
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_1na.tdf
+    Info (12023): Found entity 1: decode_1na File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/quartus/db/decode_1na.tdf Line: 22
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_hhb.tdf
+    Info (12023): Found entity 1: mux_hhb File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/quartus/db/mux_hhb.tdf Line: 22
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "nav_state[3]" is stuck at GND File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 17
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (15717): Design contains 191 virtual pins; timing numbers associated with paths containing virtual pins are estimates
+    Info (15719): Pin "motor_left[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[3]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[4]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[5]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[6]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[7]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[8]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[9]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[10]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[11]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[12]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[13]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[14]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_left[15]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[3]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[4]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[5]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[6]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[7]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[8]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[9]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[10]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[11]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[12]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[13]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[14]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "motor_right[15]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 15
+    Info (15719): Pin "inhibited" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 16
+    Info (15719): Pin "stopped" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 16
+    Info (15719): Pin "cdc_fault" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 16
+    Info (15719): Pin "nav_state[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 17
+    Info (15719): Pin "nav_state[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 17
+    Info (15719): Pin "nav_state[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 17
+    Info (15719): Pin "nav_state[3]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 17
+    Info (15719): Pin "debug_feature_valid" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 18
+    Info (15719): Pin "debug_frame_good" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 18
+    Info (15719): Pin "debug_row_valid[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 19
+    Info (15719): Pin "debug_row_valid[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 19
+    Info (15719): Pin "debug_row_valid[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 19
+    Info (15719): Pin "debug_junction[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 19
+    Info (15719): Pin "debug_junction[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 19
+    Info (15719): Pin "debug_junction[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 19
+    Info (15719): Pin "debug_centroids[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[3]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[4]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[5]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[6]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[7]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[8]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[9]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[10]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[11]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[12]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[13]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[14]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[15]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[16]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[17]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[18]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[19]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[20]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[21]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[22]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[23]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[24]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[25]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_centroids[26]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 20
+    Info (15719): Pin "debug_counts[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[3]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[4]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[5]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[6]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[7]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[8]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[9]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[10]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[11]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[12]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[13]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[14]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[15]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[16]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[17]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[18]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[19]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[20]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[21]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[22]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[23]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[24]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[25]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_counts[26]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 21
+    Info (15719): Pin "debug_frame_id[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[3]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[4]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[5]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[6]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[7]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[8]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[9]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[10]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[11]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[12]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[13]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[14]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "debug_frame_id[15]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 22
+    Info (15719): Pin "vga_red[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_red[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_red[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_red[3]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_red[4]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_red[5]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_red[6]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_red[7]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_green[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_green[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_green[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_green[3]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_green[4]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_green[5]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_green[6]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_green[7]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_blue[0]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_blue[1]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_blue[2]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_blue[3]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_blue[4]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_blue[5]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_blue[6]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_blue[7]" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 23
+    Info (15719): Pin "vga_hsync_n" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 24
+    Info (15719): Pin "vga_vsync_n" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 24
+    Info (15719): Pin "vga_blank_n" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 24
+    Info (15719): Pin "video_ready" is virtual output pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 25
+    Info (15718): Pin "stop_event" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 12
+    Info (15718): Pin "sensor_required" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 12
+    Info (15718): Pin "bypass" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 12
+    Info (15718): Pin "arst" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 8
+    Info (15718): Pin "release_event" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 12
+    Info (15718): Pin "distance_sample" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 13
+    Info (15718): Pin "distance_valid" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 13
+    Info (15718): Pin "distance_mm[6]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[4]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[5]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[7]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[3]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[2]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[0]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[1]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[8]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[9]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[10]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[11]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[12]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[13]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[14]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "distance_mm[15]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 14
+    Info (15718): Pin "href" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 8
+    Info (15718): Pin "vsync" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 8
+    Info (15718): Pin "pixel_format[0]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 10
+    Info (15718): Pin "pixel_format[1]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 10
+    Info (15718): Pin "camera_data[0]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "camera_data[1]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "camera_data[2]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "camera_data[3]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "camera_data[4]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "camera_data[5]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "camera_data[6]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "camera_data[7]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "y_first" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 11
+    Info (15718): Pin "rgb_msb_first" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 11
+    Info (15718): Pin "dark_line" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 11
+    Info (15718): Pin "threshold[7]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "threshold[6]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "threshold[5]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "threshold[4]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "threshold[3]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "threshold[2]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "threshold[1]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+    Info (15718): Pin "threshold[0]" is virtual input pin File: E:/USYD/USYD_2-2/MTRX3700/ASSIGNMENT2/WORK/build/major_project_20261019/MTRX3700_Robot/rtl/top/robot_system.sv Line: 9
+Info (21057): Implemented 1771 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 3 input pins
+    Info (21059): Implemented 0 output pins
+    Info (21061): Implemented 1616 logic cells
+    Info (21064): Implemented 152 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4835 megabytes
+    Info: Processing ended: Mon Oct 19 17:27:00 2026
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:07

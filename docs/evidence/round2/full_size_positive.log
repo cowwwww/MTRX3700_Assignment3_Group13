@@ -1,0 +1,3 @@
+PASS QVGA: four 320x240 raw frames, 9-bit statistics, bypass, wheel control and stop
+PASS VGA: all 420000 scan positions, 307200 active pixels, exact sync/blanking and bank coherence
+FULL SIZE TESTS PASSED

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "seconds": 87.672,
+  "version": "rev vUNKNOWN-built20260516-4e853d8",
+  "verilator_5050": false,
+  "mutation_caught": true,
+  "r6_automated_gate": false,
+  "hardware_tested": false,
+  "synthetic_golden_frames": 36,
+  "source_sha256": {
+    "rtl\\common\\unsigned_divider.sv": "479319fbd33e5bc288ee50208a51c31674e37c6ce50d0bf94ea794e208df153e",
+    "rtl\\motor\\motion_control.sv": "4eedead326f9e8791d93321f7dfb612c24cf7ab41a8916c2b1e92f259d849bd8",
+    "rtl\\motor\\uart_tx.sv": "db6423c942b0316f7ab3c7317b78fc7dd564d028e726b66f5665d573d9d044e4",
+    "rtl\\navigation\\distance_guard.sv": "26183f9be8d1ad0d3a2074cfad0c83a477357217c3927948f6624f0f102d9455",
+    "rtl\\navigation\\junction_memory.sv": "d830eafb5a0940a0e8b3ae0bd5f49161dc6fc435e066fd7565c9aff80dc40d3c",
+    "rtl\\navigation\\navigation_fsm.sv": "d36c1ae3df25adfebf26539f0c49370f0668a7ba75a020026e901510c16257e2",
+    "rtl\\reuse\\cdc_mailbox.sv": "9d7bee17887c9d4d8d3d306a2a701e07058b4dbebf11739eb2df6470fad0549e",
+    "rtl\\reuse\\reset_sync.sv": "3fabc1b96f35ef5b8d25b489628f8448db0c657b8e5d38a28fb782e339b416dc",
+    "rtl\\safety\\safety_stop.sv": "d56f3fe7c51d4a7f0382344216727dec7ebdea3f22a0152d335eb82b4b4e4790",
+    "rtl\\top\\robot_core.sv": "345521839db18905272605d30cab32a3d5b9b16ac8448845f2391e5aebf3c315",
+    "rtl\\vision\\curve_fit.sv": "425e89733a1489e978fa2faaa5885076566ee19d8606fee4a9b870425d7a0b22",
+    "rtl\\vision\\line_detector.sv": "ebf5a465fa405e0c51489af18c7c78ec7acea32bad6e2761c692b0fdbc1dda32",
+    "tb\\mock_motor_packet.sv": "eeea885eff0bc1e53012bc2202ffe5c0bb7dd6a36c769d153d77ffb208444674",
+    "tb\\verification_top.sv": "2e95592b984fd3fb967f9f73e05b26531ad82945b13fa8a187b57e933cd650a4",
+    "tb\\test_main.cpp": "0f6ee139932f50301e13c382d52964a4f278cd56152e59ea784627e2fe353cc2"
+  }
+}

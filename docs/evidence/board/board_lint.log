@@ -1,0 +1,193 @@
+- V e r i l a t i o n   R e p o r t:  rev vUNKNOWN-built20260516-4e853d8
+- Verilator: Built from 1.752 MB sources in 33 modules, into 0.459 MB in 3 C++ files needing 0.000 MB
+- Verilator: Walltime 0.328 s (elab=0.058, cvt=0.184, bld=0.000); cpu 0.000 s on 1 threads; allocated 22.648 MB
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\camera\camera_byte_capture.sv:8:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    8 | module camera_byte_capture #(
+      |        ^~~~~~~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/TIMESCALEMOD?v=0.000
+                       ... Use "/* verilator lint_off TIMESCALEMOD */" and lint_on around source to disable this message.
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\common\unsigned_divider.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module unsigned_divider #(parameter integer WIDTH=18)(
+      |        ^~~~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\motor\motion_control.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module motion_control #(parameter integer GAIN=2,MAX_COMMAND=255)(
+      |        ^~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\motor\uart_tx.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module uart_tx #(parameter integer CLKS_PER_BIT=434)(
+      |        ^~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\navigation\distance_guard.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module distance_guard #(
+      |        ^~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\navigation\junction_memory.sv:7:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    7 | module junction_memory #(parameter integer DEPTH=8,KEY_WIDTH=8)(
+      |        ^~~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\navigation\navigation_fsm.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module navigation_fsm #(
+      |        ^~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\reuse\cdc_mailbox.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module cdc_mailbox #(parameter WIDTH=16)(
+      |        ^~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\reuse\reset_sync.sv:1:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    1 | module reset_sync(input logic clk, arst, output logic reset);
+      |        ^~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\safety\safety_stop.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module safety_stop(input logic clk,reset,stop_event,release_event,output logic stopped);
+      |        ^~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\top\camera_debug_display.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module camera_debug_display #(
+      |        ^~~~~~~~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\top\robot_camera_system.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module robot_camera_system #(
+      |        ^~~~~~~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\top\robot_core.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module robot_core #(
+      |        ^~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\top\robot_system.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module robot_system #(
+      |        ^~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\vision\camera_motion.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module camera_motion #(
+      |        ^~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\vision\curve_fit.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module curve_fit #(parameter integer W=320,XW=$clog2(W))(
+      |        ^~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\vision\debug_overlay.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module debug_overlay #(parameter integer W=320,H=240,XW=$clog2(W),YW=$clog2(H))(
+      |        ^~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\vision\image_translation_sad.sv:7:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    7 | module image_translation_sad #(
+      |        ^~~~~~~~~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\vision\line_detector.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module line_detector #(
+      |        ^~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\vision\motion_result.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module motion_result #(
+      |        ^~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\vision\vga_scanout.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module vga_scanout #(
+      |        ^~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\rtl\vision\video_framebuffer.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module video_framebuffer #(
+      |        ^~~~~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\board\rtl\camera_to_qvga.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module camera_to_qvga #(
+      |        ^~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\board\rtl\chassis_json_tx.sv:8:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    8 | module chassis_json_tx #(
+      |        ^~~~~~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-TIMESCALEMOD: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\board\rtl\robot_board.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module robot_board(
+      |        ^~~~~~~~~~~
+                       E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\video_pll.sv:17:8: ... Location of module with timescale
+   17 | module video_pll (
+      |        ^~~~~~~~~
+%Warning-WIDTHEXPAND: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\clock_divider.sv:20:19: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'count' generates 7 bits.
+                                                                                                                                                             : ... note: In instance 'robot_board.sccb_clk_u'
+   20 |         if (count == HALF - 1) begin
+      |                   ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=0.000
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\sonar\rtl\sonar_range.sv:112:17: Operator ASSIGNW expects 12 bits on the Assign RHS, but Assign RHS's SHIFTR generates 32 bits.
+                                                                                                                                                          : ... note: In instance 'robot_board.front_sensor'
+  112 | assign distance = (count >> 8);  
+      |                 ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=0.000
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\ov7670_config.sv:162:49: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'wait_count' generates 8 bits.
+                                                                                                                                                              : ... note: In instance 'robot_board.cfg_u'
+  162 |             RESET_LOW: next_state = (wait_count == T_RESET - 1)  ? SETTLE : RESET_LOW;
+      |                                                 ^~
+%Warning-WIDTHEXPAND: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\ov7670_config.sv:163:49: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'wait_count' generates 8 bits.
+                                                                                                                                                              : ... note: In instance 'robot_board.cfg_u'
+  163 |             SETTLE:    next_state = (wait_count == T_SETTLE - 1) ? LOAD : SETTLE;
+      |                                                 ^~
+%Warning-WIDTHEXPAND: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\ov7670_config.sv:166:44: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'index' generates 7 bits.
+                                                                                                                                                              : ... note: In instance 'robot_board.cfg_u'
+  166 |             NEXT:      next_state = (index == N - 1) ? DONE : (settle_after ? SETTLE : LOAD);
+      |                                            ^~
+%Warning-CASEINCOMPLETE: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\ov7670_config.sv:161:9: Case values incompletely covered (example pattern 0x6)
+  161 |         case (state)
+      |         ^~~~
+                         ... For warning description see https://verilator.org/warn/CASEINCOMPLETE?v=0.000
+                         ... Use "/* verilator lint_off CASEINCOMPLETE */" and lint_on around source to disable this message.
+%Warning-CASEINCOMPLETE: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\i2c_master.sv:37:9: Case values incompletely covered (example pattern 0xc)
+   37 |         case(state)
+      |         ^~~~
+%Warning-CASEINCOMPLETE: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\i2c_master.sv:60:9: Case values incompletely covered (example pattern 0x1)
+   60 |         case (state)
+      |         ^~~~
+%Warning-CASEINCOMPLETE: E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\build\major_project_20261022\V2_BOARD\vendor\course_hwtest\camera\rtl\i2c_master.sv:82:9: Case values incompletely covered (example pattern 0x4)
+   82 |         case (state)
+      |         ^~~~

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'display'
+Slack : 29.836
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'camera'
+Slack : 30.373
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'display'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'camera'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'display'
+Slack : 18.869
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'camera'
+Slack : 19.693
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'display'
+Slack : 30.218
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'camera'
+Slack : 30.737
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'display'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'camera'
+Slack : 0.369
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'display'
+Slack : 18.814
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'camera'
+Slack : 19.642
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'display'
+Slack : 32.977
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'camera'
+Slack : 34.134
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'camera'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'display'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'display'
+Slack : 18.788
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'camera'
+Slack : 19.648
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'display'
+Slack : 33.874
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'camera'
+Slack : 35.009
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'camera'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'display'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'display'
+Slack : 18.783
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'camera'
+Slack : 19.642
+TNS   : 0.000
+
+------------------------------------------------------------

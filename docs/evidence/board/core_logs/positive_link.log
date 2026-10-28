@@ -1,0 +1,196 @@
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1-gcc-ext.c:41:1: warning: redeclaration of '_Unwind_Resume_or_Rethrow' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+   41 | _Unwind_Resume_or_Rethrow(_Unwind_Exception *exception_object) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:107:5: note: previous declaration is here
+  107 |     _Unwind_Resume_or_Rethrow(_Unwind_Exception *exception_object);
+      |     ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1-gcc-ext.c:65:1: warning: redeclaration of '_Unwind_GetDataRelBase' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+   65 | _Unwind_GetDataRelBase(struct _Unwind_Context *context) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:164:18: note: previous declaration is here
+  164 | extern uintptr_t _Unwind_GetDataRelBase(struct _Unwind_Context *context)
+      |                  ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1-gcc-ext.c:78:1: warning: redeclaration of '_Unwind_GetTextRelBase' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+   78 | _Unwind_GetTextRelBase(struct _Unwind_Context *context) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:166:18: note: previous declaration is here
+  166 | extern uintptr_t _Unwind_GetTextRelBase(struct _Unwind_Context *context)
+      |                  ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1-gcc-ext.c:87:25: warning: redeclaration of '_Unwind_FindEnclosingFunction' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+   87 | _LIBUNWIND_EXPORT void *_Unwind_FindEnclosingFunction(void *pc) {
+      |                         ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:160:14: note: previous declaration is here
+  160 | extern void *_Unwind_FindEnclosingFunction(void *pc);
+      |              ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1-gcc-ext.c:133:1: warning: redeclaration of '_Unwind_Backtrace' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  133 | _Unwind_Backtrace(_Unwind_Trace_Fn callback, void *ref) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:115:28: note: previous declaration is here
+  115 | extern _Unwind_Reason_Code _Unwind_Backtrace(_Unwind_Trace_Fn, void *);
+      |                            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1-gcc-ext.c:212:31: warning: redeclaration of '_Unwind_Find_FDE' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  212 | _LIBUNWIND_EXPORT const void *_Unwind_Find_FDE(const void *pc,
+      |                               ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:152:20: note: previous declaration is here
+  152 | extern const void *_Unwind_Find_FDE(const void *pc, struct dwarf_eh_bases *);
+      |                    ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1-gcc-ext.c:233:29: warning: redeclaration of '_Unwind_GetCFA' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  233 | _LIBUNWIND_EXPORT uintptr_t _Unwind_GetCFA(struct _Unwind_Context *context) {
+      |                             ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:120:18: note: previous declaration is here
+  120 | extern uintptr_t _Unwind_GetCFA(struct _Unwind_Context *);
+      |                  ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1-gcc-ext.c:246:29: warning: redeclaration of '_Unwind_GetIPInfo' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  246 | _LIBUNWIND_EXPORT uintptr_t _Unwind_GetIPInfo(struct _Unwind_Context *context,
+      |                             ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:129:18: note: previous declaration is here
+  129 | extern uintptr_t _Unwind_GetIPInfo(struct _Unwind_Context *context,
+      |                  ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1.c:537:1: warning: redeclaration of '_Unwind_DeleteException' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  537 | _Unwind_DeleteException(_Unwind_Exception *exception_object) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind_itanium.h:63:13: note: previous declaration is here
+   63 | extern void _Unwind_DeleteException(_Unwind_Exception *exception_object);
+      |             ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1.c:547:1: warning: redeclaration of '_Unwind_GetGR' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  547 | _Unwind_GetGR(struct _Unwind_Context *context, int index) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind_itanium.h:66:18: note: previous declaration is here
+   66 | extern uintptr_t _Unwind_GetGR(struct _Unwind_Context *context, int index);
+      |                  ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1.c:557:24: warning: redeclaration of '_Unwind_SetGR' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  557 | _LIBUNWIND_EXPORT void _Unwind_SetGR(struct _Unwind_Context *context, int index,
+      |                        ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind_itanium.h:67:13: note: previous declaration is here
+   67 | extern void _Unwind_SetGR(struct _Unwind_Context *context, int index,
+      |             ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1.c:567:29: warning: redeclaration of '_Unwind_GetIP' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  567 | _LIBUNWIND_EXPORT uintptr_t _Unwind_GetIP(struct _Unwind_Context *context) {
+      |                             ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind_itanium.h:69:18: note: previous declaration is here
+   69 | extern uintptr_t _Unwind_GetIP(struct _Unwind_Context *context);
+      |                  ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\UnwindLevel1.c:579:24: warning: redeclaration of '_Unwind_SetIP' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  579 | _LIBUNWIND_EXPORT void _Unwind_SetIP(struct _Unwind_Context *context,
+      |                        ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind_itanium.h:70:13: note: previous declaration is here
+   70 | extern void _Unwind_SetIP(struct _Unwind_Context *, uintptr_t new_value);
+      |             ^
+8 warnings generated.
+5 warnings generated.
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\Unwind-seh.cpp:59:1: warning: redeclaration of '_GCC_specific_handler' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+   59 | _GCC_specific_handler(PEXCEPTION_RECORD ms_exc, PVOID frame, PCONTEXT ms_ctx,
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:197:30: note: previous declaration is here
+  197 | extern EXCEPTION_DISPOSITION _GCC_specific_handler(EXCEPTION_RECORD *exc,
+      |                              ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\Unwind-seh.cpp:352:1: warning: redeclaration of '_Unwind_RaiseException' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  352 | _Unwind_RaiseException(_Unwind_Exception *exception_object) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind_itanium.h:60:5: note: previous declaration is here
+   60 |     _Unwind_RaiseException(_Unwind_Exception *exception_object);
+      |     ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\Unwind-seh.cpp:381:1: warning: redeclaration of '_Unwind_Resume' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  381 | _Unwind_Resume(_Unwind_Exception *exception_object) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind_itanium.h:61:13: note: previous declaration is here
+   61 | extern void _Unwind_Resume(_Unwind_Exception *exception_object);
+      |             ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\Unwind-seh.cpp:420:1: warning: redeclaration of '_Unwind_ForcedUnwind' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  420 | _Unwind_ForcedUnwind(_Unwind_Exception *exception_object,
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:85:5: note: previous declaration is here
+   85 |     _Unwind_ForcedUnwind(_Unwind_Exception *exception_object,
+      |     ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\Unwind-seh.cpp:438:1: warning: redeclaration of '_Unwind_GetLanguageSpecificData' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  438 | _Unwind_GetLanguageSpecificData(struct _Unwind_Context *context) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:78:5: note: previous declaration is here
+   78 |     _Unwind_GetLanguageSpecificData(struct _Unwind_Context *context);
+      |     ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\Unwind-seh.cpp:450:1: warning: redeclaration of '_Unwind_GetRegionStart' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  450 | _Unwind_GetRegionStart(struct _Unwind_Context *context) {
+      | ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/unwind.h:76:18: note: previous declaration is here
+   76 | extern uintptr_t _Unwind_GetRegionStart(struct _Unwind_Context *context);
+      |                  ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:38:36: warning: redeclaration of 'unw_local_addr_space' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+   38 | _LIBUNWIND_EXPORT unw_addr_space_t unw_local_addr_space =
+      |                                    ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:134:25: note: previous declaration is here
+  134 | extern unw_addr_space_t unw_local_addr_space;
+      |                         ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:95:41: warning: redeclaration of 'unw_init_local' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+   95 | _LIBUNWIND_WEAK_ALIAS(__unw_init_local, unw_init_local)
+      |                                         ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:110:12: note: previous declaration is here
+  110 | extern int unw_init_local(unw_cursor_t *, unw_context_t *) LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:110:38: warning: redeclaration of 'unw_get_reg' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  110 | _LIBUNWIND_WEAK_ALIAS(__unw_get_reg, unw_get_reg)
+      |                                      ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:112:12: note: previous declaration is here
+  112 | extern int unw_get_reg(unw_cursor_t *, unw_regnum_t, unw_word_t *) LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:142:38: warning: redeclaration of 'unw_set_reg' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  142 | _LIBUNWIND_WEAK_ALIAS(__unw_set_reg, unw_set_reg)
+      |                                      ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:114:12: note: previous declaration is here
+  114 | extern int unw_set_reg(unw_cursor_t *, unw_regnum_t, unw_word_t) LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:157:40: warning: redeclaration of 'unw_get_fpreg' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  157 | _LIBUNWIND_WEAK_ALIAS(__unw_get_fpreg, unw_get_fpreg)
+      |                                        ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:113:12: note: previous declaration is here
+  113 | extern int unw_get_fpreg(unw_cursor_t *, unw_regnum_t, unw_fpreg_t *) LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:176:40: warning: redeclaration of 'unw_set_fpreg' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  176 | _LIBUNWIND_WEAK_ALIAS(__unw_set_fpreg, unw_set_fpreg)
+      |                                        ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:115:12: note: previous declaration is here
+  115 | extern int unw_set_fpreg(unw_cursor_t *, unw_regnum_t, unw_fpreg_t)  LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:184:35: warning: redeclaration of 'unw_step' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  184 | _LIBUNWIND_WEAK_ALIAS(__unw_step, unw_step)
+      |                                   ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:111:12: note: previous declaration is here
+  111 | extern int unw_step(unw_cursor_t *) LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:206:44: warning: redeclaration of 'unw_get_proc_info' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  206 | _LIBUNWIND_WEAK_ALIAS(__unw_get_proc_info, unw_get_proc_info)
+      |                                            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:128:12: note: previous declaration is here
+  128 | extern int unw_get_proc_info(unw_cursor_t *, unw_proc_info_t *) LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:219:37: warning: redeclaration of 'unw_resume' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  219 | _LIBUNWIND_WEAK_ALIAS(__unw_resume, unw_resume)
+      |                                     ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:116:12: note: previous declaration is here
+  116 | extern int unw_resume(unw_cursor_t *) LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:232:44: warning: redeclaration of 'unw_get_proc_name' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  232 | _LIBUNWIND_WEAK_ALIAS(__unw_get_proc_name, unw_get_proc_name)
+      |                                            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:131:12: note: previous declaration is here
+  131 | extern int unw_get_proc_name(unw_cursor_t *, char *, size_t, unw_word_t *) LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:242:39: warning: redeclaration of 'unw_is_fpreg' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  242 | _LIBUNWIND_WEAK_ALIAS(__unw_is_fpreg, unw_is_fpreg)
+      |                                       ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:129:12: note: previous declaration is here
+  129 | extern int unw_is_fpreg(unw_cursor_t *, unw_regnum_t) LIBUNWIND_AVAIL;
+      |            ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:252:38: warning: redeclaration of 'unw_regname' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  252 | _LIBUNWIND_WEAK_ALIAS(__unw_regname, unw_regname)
+      |                                      ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:127:20: note: previous declaration is here
+  127 | extern const char *unw_regname(unw_cursor_t *, unw_regnum_t) LIBUNWIND_AVAIL;
+      |                    ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\src\libunwind.cpp:261:46: warning: redeclaration of 'unw_is_signal_frame' should not add 'dllexport' attribute [-Wdll-attribute-on-redeclaration]
+  261 | _LIBUNWIND_WEAK_ALIAS(__unw_is_signal_frame, unw_is_signal_frame)
+      |                                              ^
+E:\USYD\USYD_2-2\MTRX3700\ASSIGNMENT2\WORK\.deps\ziglang\lib\libunwind\include/libunwind.h:130:12: note: previous declaration is here
+  130 | extern int unw_is_signal_frame(unw_cursor_t *) LIBUNWIND_AVAIL;
+      |            ^
+6 warnings generated.
+13 warnings generated.

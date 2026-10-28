@@ -1,0 +1,89 @@
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY robot_system
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 2
+set_global_assignment -name SDC_FILE robot_system.sdc
+# Data pins are virtual and clock pins are unassigned. Add real pins before board use.
+set_instance_assignment -name VIRTUAL_PIN ON -to arst
+set_instance_assignment -name VIRTUAL_PIN ON -to dark_line
+set_instance_assignment -name VIRTUAL_PIN ON -to stop_event
+set_instance_assignment -name VIRTUAL_PIN ON -to release_event
+set_instance_assignment -name VIRTUAL_PIN ON -to bypass
+set_instance_assignment -name VIRTUAL_PIN ON -to sensor_required
+set_instance_assignment -name VIRTUAL_PIN ON -to distance_sample
+set_instance_assignment -name VIRTUAL_PIN ON -to distance_valid
+set_instance_assignment -name VIRTUAL_PIN ON -to inhibited
+set_instance_assignment -name VIRTUAL_PIN ON -to stopped
+set_instance_assignment -name VIRTUAL_PIN ON -to cdc_fault
+set_instance_assignment -name VIRTUAL_PIN ON -to debug_feature_valid
+set_instance_assignment -name VIRTUAL_PIN ON -to debug_frame_good
+set_instance_assignment -name VIRTUAL_PIN ON -to href
+set_instance_assignment -name VIRTUAL_PIN ON -to vsync
+set_instance_assignment -name VIRTUAL_PIN ON -to rgb_msb_first
+set_instance_assignment -name VIRTUAL_PIN ON -to y_first
+set_instance_assignment -name VIRTUAL_PIN ON -to vga_hsync_n
+set_instance_assignment -name VIRTUAL_PIN ON -to vga_vsync_n
+set_instance_assignment -name VIRTUAL_PIN ON -to vga_blank_n
+set_instance_assignment -name VIRTUAL_PIN ON -to video_ready
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_result_valid
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_accepted
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_rejected
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_tracking_valid
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_continuity_lost
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_overflow
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_boundary
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_busy
+set_instance_assignment -name VIRTUAL_PIN ON -to threshold[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to distance_mm[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motor_left[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motor_right[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to nav_state[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to debug_row_valid[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to debug_junction[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to debug_centroids[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to debug_counts[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to debug_frame_id[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to camera_data[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to pixel_format[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to vga_red[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to vga_green[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to vga_blue[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_dx[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_dy[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_total_x[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_total_y[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_reference_id[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_current_id[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_dropped_frames[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_best_sad[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_second_sad[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to motion_contrast[*]
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/camera/camera_byte_capture.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/common/unsigned_divider.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/motor/motion_control.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/motor/uart_tx.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/navigation/distance_guard.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/navigation/junction_memory.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/navigation/navigation_fsm.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/reuse/cdc_mailbox.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/reuse/reset_sync.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/safety/safety_stop.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/top/camera_debug_display.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/top/robot_camera_system.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/top/robot_core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/top/robot_system.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/camera_motion.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/curve_fit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/debug_overlay.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/image_translation_sad.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/line_detector.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/motion_result.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/vga_scanout.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/vision/video_framebuffer.sv
+
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
